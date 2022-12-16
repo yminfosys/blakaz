@@ -8,6 +8,8 @@
         <title>Title Page</title>
 
         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
         <link href="/admin/sidebar.css" rel="stylesheet" type="text/css">
@@ -31,25 +33,10 @@
             </div>
             <ul class="sidebar-menue">
             <li class="Dashboard"><a href="../india/admin"> <i class="fa fa-dashboard" aria-hidden="true"></i><span> Dashboard</span></a></li>
-            <li class="Profile">
-              <a href="#ProfileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                  <i class="fa fa-cogs"></i>
-                  <span>Menu</span>
-              </a>
-              <ul class="collapse " id="ProfileSubmenu">
-                  <li><a href="#" onclick="cityandprice()">City And Price</a></li>
-                  <li><a href="#" onclick="driverIncentiveModule()">Driver Incentive module</a></li>
-                  <li><a href="#" onclick="driverWithdral()">Driver Withdral Requiest</a></li>
-              </ul>
-            </li>
-            
-            <li class="ridedetails"><a href="/india/admin/ridedetails"> <span> Ride Details</span></a></li>
-            <li onclick="creatallIndiaCityInit()" class="ridedetails"><a href="#"> <span> Create All India City</span></a></li>
-            <li class="gst"><a href="/india/admin/gstReport"> <span> Gst Report</span></a></li>
-            <li onclick="addWallermoneyInit()" class="addwallet"><a href="#"> <span>Add Wallet Momey</span></a></li>
-            <li onclick="orderAmountModify()" class="modf"><a href="#"> <span>Modify Order Amount</span></a></li>
-            
-            <li class="Logout"><a href="/india/admin/logout"> <span> Logout</span></a></li>
+            <li><a href="#" onclick=""><i class="fa fa-file-text" aria-hidden="true"></i> <span>Cetegori</span></a></li>
+            <li><a href="#" onclick=""><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Menue Items</span></a></li>
+            <li><a href="#" onclick=""><i class="fa fa-bars" aria-hidden="true"></i> <span>Orders</span></a></li>
+            <li class="Logout"><a href="/india/admin/logout"><i class="fa fa-sign-out" aria-hidden="true"></i><span> Logout</span></a></li>
             </ul>
         </div>
 
